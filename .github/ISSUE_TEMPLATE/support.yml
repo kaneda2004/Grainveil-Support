@@ -1,0 +1,55 @@
+name: Grainveil support request
+description: Report a problem or ask for help with Grainveil for iPhone.
+title: "Support: "
+labels:
+  - support
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve Grainveil. Do not attach private photographs, location details, or other sensitive information.
+  - type: input
+    id: iphone
+    attributes:
+      label: iPhone model
+      placeholder: iPhone 16 Pro Max
+    validations:
+      required: true
+  - type: input
+    id: ios
+    attributes:
+      label: iOS version
+      placeholder: iOS 26.6
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+      description: Describe the problem and what you expected instead.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open Grainveil
+        2. Select ...
+        3. Tap ...
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Camera or focus
+        - Photo saving or gallery
+        - Portrait or depth
+        - Framing, bloom, or contrast
+        - Permissions
+        - Accessibility
+        - Other
+    validations:
+      required: true
