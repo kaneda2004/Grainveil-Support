@@ -14,13 +14,14 @@
     <p>Grainveil does not collect, transmit, sell, or share personal data. Photograph and depth processing happens on your iPhone.</p>
     <h2>Camera and photographs</h2>
     <p>Grainveil uses camera access to create photographs. It requests add-only Photos access when saving a capture. If you open Grainveil’s gallery, it requests Photos library access so it can display images already in your library. Grainveil does not upload those images to the developer or to the depth-model authors.</p>
+    <p>If Photos cannot save a finished photograph, Grainveil keeps a protected, app-private recovery copy on your iPhone so you can retry after relaunching the app. The recovery copy is removed after it saves successfully and is also removed if you delete Grainveil. It is never sent to the developer.</p>
     <p>If an image is stored in iCloud Photos, Apple may retrieve it according to your device and iCloud settings when you choose to view it. That transfer is handled by Apple’s Photos framework.</p>
     <h2>On-device depth processing</h2>
     <p>Portrait effects use camera-provided depth when available or an included Core ML depth model. Both paths run locally. Depth maps are not transmitted.</p>
     <h2>Analytics, advertising, and tracking</h2>
     <p>Grainveil contains no advertising SDK, analytics service, account system, tracking technology, or developer-operated network service.</p>
     <h2>Settings and retention</h2>
-    <p>Grainveil stores camera preferences such as aspect ratio, contrast, bloom, and viewfinder overlays on your device. iOS removes those app settings when the app is deleted. Photographs saved to Photos remain under your control until you delete them from Photos.</p>
+    <p>Grainveil stores camera preferences such as aspect ratio, contrast, bloom, and viewfinder overlays on your device. iOS removes those app settings and any unsaved recovery copies when the app is deleted. Photographs saved to Photos remain under your control until you delete them from Photos.</p>
     <h2>Your choices</h2>
     <p>You can change Camera and Photos access at any time in iPhone Settings. Because Grainveil does not collect personal data, the developer has no stored personal-data record to access or delete.</p>
     <h2>Changes and contact</h2>
@@ -29,4 +30,3 @@
   </main>
 </body>
 </html>
-
