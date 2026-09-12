@@ -3,20 +3,41 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#050505">
+  <meta name="description" content="Help and support for Grainveil, the deliberate black-and-white camera for iPhone.">
+  <link rel="canonical" href="https://grainveil.mkultra.pro/support">
+  <link rel="icon" href="../assets/icon-web.png">
   <title>Support — Grainveil</title>
-  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="../style.css?v=20260911-release">
 </head>
-<body>
-  <main>
-    <header><img class="icon" src="../assets/icon.png" alt=""><div><h1>SUPPORT</h1><p class="tagline">Grainveil for iPhone</p></div></header>
-    <section class="card">
-      <h2>Need a hand?</h2>
-      <p>Report a problem or request help through the Grainveil project’s issue tracker. Include your iPhone model, iOS version, and what you expected to happen. Do not attach private photographs or other sensitive information.</p>
-      <p><a href="https://github.com/kaneda2004/Grainveil-Support/issues/new">Contact Grainveil Support</a></p>
+<body class="inner-page">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header shell inner-header">
+    <a class="brand" href="../"><img src="../assets/icon-web.png" width="44" height="44" alt=""><span>GRAINVEIL</span></a>
+    <nav aria-label="Main navigation"><a href="../">Camera</a><a href="../privacy/">Privacy</a><a href="https://apps.apple.com/app/grainveil/id6806885347">App Store</a></nav>
+  </header>
+  <main class="inner-main" id="main">
+    <p class="page-label">Support</p>
+    <h1>Good questions,<br>straight answers.</h1>
+    <p class="page-intro">Tell us what happened and we’ll help you get back to making photographs.</p>
+    <section class="support-card"><h2>Need a hand?</h2><p>Email Grainveil Support with your iPhone model, iOS version, and what you expected to happen. Do not attach private photographs or other sensitive information.</p><a class="button-dark" href="mailto:info@mkultra.pro?subject=Grainveil%20Support">Email Grainveil Support</a></section>
+    <section aria-labelledby="faq-title">
+      <p class="page-label">Common questions</p>
+      <h2 id="faq-title">Camera and permissions</h2>
+      <div class="faq-list">
+        <details><summary>Why does Grainveil need Camera access?</summary><p>Camera access lets Grainveil show the viewfinder, focus, meter, and take photographs. The live image and finished photograph are processed on your iPhone.</p></details>
+        <details><summary>Why does it request Photos access?</summary><p>Grainveil first requests add-only access so it can save captures. It asks for broader library access only when you open its gallery. You can review or change access in iPhone Settings.</p></details>
+        <details><summary>What happens if a photograph cannot save?</summary><p>Grainveil keeps a protected recovery copy inside the app so you can retry after restoring Photos access or relaunching. The recovery copy is removed after a successful save.</p></details>
+        <details><summary>Does Portrait mode upload my photograph?</summary><p>No. Camera depth and the bundled Smart Depth model both run on your device. Grainveil does not operate an image-processing service.</p></details>
+        <details><summary>Which lenses and modes are available?</summary><p>Rear wide, ultra-wide, telephoto, and front cameras appear when supported by your iPhone. Some depth paths and lens combinations depend on the camera hardware available on that device.</p></details>
+        <details><summary>Which lenses are free in version 1.1?</summary><p>Clean, Natural, and Hex are included free. Collection I is an optional, one-time purchase that unlocks Dream, Veil, and Meridian, with Family Sharing and no subscription. Version 1.1 is awaiting App Store approval.</p></details>
+        <details><summary>How do I restore Collection I?</summary><p>Open Settings → Lens Collections → Restore Purchases and sign in to the Apple Account used for the purchase. TestFlight includes the lenses during the beta; beta access is separate from a purchase and does not carry over to the App Store version.</p></details>
+        <details><summary>What does Depth change in version 1.1?</summary><p>In Portrait mode, open Style and choose Depth. Move toward Shallow for more out-of-focus blur, or Deep for less. Each depth-enabled lens remembers its setting. Clean has no added depth blur. These controls are shown in the upcoming 1.1 interface.</p></details>
+        <details><summary>Why does the preview sometimes look simpler?</summary><p>The live preview uses a lighter rendering budget than the developed photograph. On a warm iPhone, Grainveil reduces preview work and may use a basic camera preview. If iOS pauses the camera itself, Grainveil shows a separate message and resumes when the camera becomes available.</p></details>
+        <details><summary>Is film grain visible before I take the photograph?</summary><p>Grain is applied to the developed photograph, not the live viewfinder. In version 1.1, choose Off, Fine, or Rich under Style → Grain.</p></details>
+      </div>
     </section>
-    <h2>Permission help</h2>
-    <p>If the camera or gallery is unavailable, open iPhone Settings, choose Grainveil, and review Camera and Photos access. Grainveil needs add-only Photos access to save captures and asks for library access only when you open its gallery.</p>
-    <nav><a href="../">Grainveil</a><a href="../privacy/">Privacy</a></nav>
   </main>
+  <footer class="inner-footer"><a href="../">Grainveil</a><a href="../privacy/">Privacy</a><a href="https://apps.apple.com/app/grainveil/id6806885347">App Store</a><a href="https://github.com/kaneda2004/Grainveil-Support/issues/new">Public issue tracker</a><span class="copyright">© 2026 Matthew Kalenuik</span></footer>
 </body>
 </html>
