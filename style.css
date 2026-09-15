@@ -51,8 +51,6 @@ h1 em { font-family: var(--serif); font-weight: 400; color: #b7b5af; }
 .hero-visual { position: relative; display: grid; place-items: center; min-height: 690px; }
 .halo { position: absolute; width: 590px; height: 590px; border-radius: 50%; background: radial-gradient(circle, rgba(255,255,255,.14), rgba(255,255,255,.025) 42%, transparent 70%); filter: blur(8px); }
 .phone-shot { position: relative; z-index: 1; width: auto; height: min(640px, 72vh); max-width: min(300px, 72vw); aspect-ratio: 800 / 1738; object-fit: contain; border: 1px solid rgba(255,255,255,.28); border-radius: 38px; box-shadow: 0 55px 100px rgba(0,0,0,.78), 0 0 0 8px rgba(255,255,255,.025); }
-.capture-note { position: absolute; z-index: 2; right: 0; bottom: 78px; display: flex; align-items: center; gap: 10px; padding: 12px 15px; border: 1px solid var(--line); border-radius: 999px; background: rgba(8,8,8,.82); backdrop-filter: blur(18px); color: #c7c6c1; font-size: .78rem; }
-.capture-note span { width: 7px; height: 7px; border-radius: 50%; background: #f1f1ed; box-shadow: 0 0 16px rgba(255,255,255,.8); }
 
 .principles { display: grid; grid-template-columns: repeat(3, 1fr); border-block: 1px solid var(--line); }
 .principles p { margin: 0; padding: 26px 30px; text-align: center; border-right: 1px solid var(--line); font-size: .86rem; }
@@ -153,7 +151,6 @@ h1 em { font-family: var(--serif); font-weight: 400; color: #b7b5af; }
   .hero-copy { display: grid; grid-template-columns: minmax(0, 1fr); justify-items: center; }
   .lede { max-width: 620px; }
   .hero-visual { min-height: 650px; }
-  .capture-note { right: 4%; bottom: 55px; }
   .intro { padding-block: 110px 80px; grid-template-columns: 1fr; }
   .intro > p:last-child { margin-top: 28px; }
   .story-row, .story-row.reverse { grid-template-columns: 1fr; min-height: 0; gap: 55px; padding-block: 70px; }
@@ -177,7 +174,6 @@ h1 em { font-family: var(--serif); font-weight: 400; color: #b7b5af; }
   .hero-actions { justify-content: center; }
   .hero-visual { min-height: 570px; }
   .phone-shot { width: auto; height: min(560px, 68vh); max-width: 258px; border-radius: 31px; }
-  .capture-note { bottom: 40px; right: -2%; }
   .principles { grid-template-columns: 1fr; }
   .principles p { border-right: 0; border-bottom: 1px solid var(--line-soft); }
   .principles p:last-child { border-bottom: 0; }
